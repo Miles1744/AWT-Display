@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWT Data Display</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">AWT Data Display</h1>
+    <div class="flex-container-data">
+      <div class="box box-1">
+        <h2>Power Output</h2>
+        <p class="power-text">Explore the power output of the turbine.</p>
+      </div>
+      <div class="box box-2"><h2>Data-Slot</h2></div>
+      <div class="box box-3"><h2>Data-Slot</h2></div>
+      <div class="box box-4"><h2>Data-Slot</h2></div>
+      <div class="box box-5"><h2>Data-Slot</h2></div>
+      <div class="box box-6"><h2>Data-Slot</h2></div>
+      <div class="box box-7"><h2>Data-Slot</h2></div>
+      <div class="box box-8"><h2>Data-Slot</h2></div>
+    </div>
+    <div class="power-data-display-container">
+      <div class="power-data-display hidden">
+        <div class="header-container">
+          <h3 class="title-text">Power Display</h3>
+          <h2 class="exit">X</h2>
+          <p class="power-data">
+            The power being Ouput is {power}. The turbine is generating {percent
+            of power relative to goal}.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="display-blur-effect hidden"></div>
+    <script src="./input.js"></script>
+  </body>
+</html>
